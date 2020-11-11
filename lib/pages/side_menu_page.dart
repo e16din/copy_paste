@@ -4,8 +4,8 @@ import '../data.dart';
 
 class SideMenuPage extends StatelessWidget {
   final groups = [
-    Group('Header'),
-    Group('[ Стартовая группа ]'),
+    Group(title: 'Header'),
+    Group(title: '[ Стартовая группа ]'),
   ];
 
   final Function(BuildContext, Group) onGroupItemClicked;
